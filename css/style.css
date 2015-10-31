@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+  margin:0;
+  color: green;
+  
+}
+table{
+  background:black;
+  width: 80%;
+  max-width: 1600px;
+  min-width: 600px;
+  caption-side: top; 
+  border:1px solid black;
+  margin: 0.5em auto;
+}
+th,td{ 
+  font-weight: bold; 
+  vertical-align: top; 
+  text-align: center; 
+}
+
+
+tbody tr:nth-child(even){
+	background:hsla(444, 30%, 70%, 1.5);
+}
+tbody tr:nth-child(odd){
+	background:hsla(444, 70%, 30%, 0.5);
+}
+tbody td:hover,tr:hover{
+	background:hsla(444, 100%, 80%, 100);
+}
+caption{
+  font-family: arial;
+  font-size: 2em;
+  color: green;
+  font-weight: bold;
+  padding: 12px;
+}
+
